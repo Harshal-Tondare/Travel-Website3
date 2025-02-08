@@ -47,13 +47,6 @@ submit.addEventListener("click", function(){
 bar.addEventListener("click", function(){
     document.querySelector("ul").classList.toggle("showData");
 })
-
-
-packages.forEach(function(packs){
-    packs.addEventListener("click", function(){
-        window.open("https://www.airbnb.co.in/", "_blank")
-   })
-})
  
 
 
